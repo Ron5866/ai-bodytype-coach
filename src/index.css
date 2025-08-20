@@ -32,13 +32,14 @@ All colors MUST be HSL.
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    /* Vibrant fitness theme colors */
-    --fitness-primary: 142 76% 36%;
+    /* FitClassify theme colors - purple/pink gradient */
+    --fitness-primary: 262 83% 58%;
     --fitness-secondary: 12 76% 61%;
-    --fitness-accent: 262 83% 58%;
+    --fitness-accent: 310 60% 70%;
     --fitness-success: 120 76% 50%;
     --fitness-warning: 45 93% 58%;
-    --fitness-gradient: linear-gradient(135deg, hsl(142 76% 36%), hsl(12 76% 61%));
+    --fitness-gradient: linear-gradient(135deg, hsl(262 83% 58%), hsl(310 60% 70%));
+    --hero-gradient: linear-gradient(135deg, hsl(262 83% 58%) 0%, hsl(310 60% 70%) 50%, hsl(25 85% 60%) 100%);
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
