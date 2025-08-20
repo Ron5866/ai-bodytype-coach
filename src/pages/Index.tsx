@@ -6,17 +6,19 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-background via-primary/5 to-accent/10">
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
           style={{ backgroundImage: `url(${heroImage})` }}
         />
-        <div className="absolute inset-0 bg-background/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-transparent to-background/80" />
         
-        <div className="relative z-10 text-center space-y-6 max-w-4xl mx-auto px-6">
-          <div className="flex items-center justify-center gap-3 mb-6">
-            <Dumbbell className="h-12 w-12 text-primary" />
-            <h1 className="text-6xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
+        <div className="relative z-10 text-center space-y-8 max-w-5xl mx-auto px-6">
+          <div className="flex items-center justify-center gap-4 mb-8">
+            <div className="p-3 bg-gradient-to-r from-primary/20 to-accent/20 rounded-full">
+              <Dumbbell className="h-16 w-16 text-primary" />
+            </div>
+            <h1 className="text-7xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-pulse">
               Fit AI
             </h1>
           </div>
